@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="navBar">
+        <div class="logo">logo</div>
+    <ul class="" id="navList">
+        <li>Home</li>
+        <li>About</li>
+        <li>contact</li>
+        <li>food</li>
+    </ul>
+        <!-- mobile view -->
+<div class="menu" id="toggleButton">
+    <div class="menu-line"></div>
+    <div class="menu-line"></div>
+     
+    <div class="menu-line"></div>
+
+</div>
+</div>
+<script>
+let toggleButton = document.getElementById("toggleButton");
+let navList = document.getElementById('navList');
+toggleButton.addEventListener("click", ()=>{
+    navList.classList.toggle('active')
+})
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ccd9ff;
+}
+nav div span {
+    font-size: 50px;
+    font-family: cursive;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+  padding: 20px;
+}
